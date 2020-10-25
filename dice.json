@@ -1,0 +1,48 @@
+{
+ "Account": { "Username": "gedeardana",
+              "Password": "1232123212"
+              },
+
+ "Interface":{ "Base Bet":"0.01",
+               "Max Bet":"off",
+               "Chance":"7",
+               "Random":{"Auto": "on",
+                         "Min" : "5",
+                         "Max" : "10.8"
+                        },
+
+               "Cl_Seed":{"Auto"       :"on",
+                          "Every_Lose" : "1"
+                         }
+              },
+
+ "BetSet":{ "Bet"   : "H",
+            "H / L" :{"Auto"   : "on",
+                      "On Lose": "3",
+                      "On Win" : "1"
+                     }
+          },
+
+ "Increase" :{ "After Win"  : "1",
+               "After Lose" : "1.2"
+             },
+
+ "Reset"    :{ "If_Win"   : "1",
+               "If_Lose"  : "0"
+             },
+
+ "Stop"    :{ "Balance"  : "30000",
+              "If_Lose"  : "0",
+              "If_Prof"  : "10000.01"
+             },
+
+ "Withdraw" :{"Auto"   : "OFF",
+              "Initial": "11",
+              "Trigger": "20",
+              "Wallet_doge" : "",
+              "Wallet_ltc" : "MFSk9QchuDoqDsz6Fj4VnLfrvi84nwSmJu",
+              "Wallet_btc" : "3BAm1NZGbyQwG436JNTrXnJzVzxq1uXHzN",
+              "Wallet_eth" : "0x1dba62e7348689fc726f00374456dbb33496b213"
+              
+             }
+}
